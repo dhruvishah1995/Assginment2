@@ -1,7 +1,7 @@
 # CSCI-5408-Assignment2
+An experiment to fetch tweets and perform sentiment analysis on it
 
 **Let's install first:**
-• sudo add-apt-repository -y ppa:webupd8team/java
 • sudo apt-get install -y python3-pip
 • pip3 install Tweepy
 
