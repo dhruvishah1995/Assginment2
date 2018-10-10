@@ -30,4 +30,4 @@ with open ('tweets.csv', 'w', encoding="utf-8", newline='') as outfile:
     for query in TweetSearchqueries:
         t = get_tweets(query)
         for tweet in t:
-            writer.writerow([tweet.id_str,tweet.user.screen_name,tweet.created_at,Data_clean(tweet.text)])    
+            writer.writerow([tweet.id_str,tweet.user.screen_name,tweet.created_at,Data_clean(tweet.text)])  
