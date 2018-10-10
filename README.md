@@ -16,3 +16,7 @@ An experiment to fetch tweets and perform sentiment analysis on it
 • sudo apt-get -y install elasticsearch<br/>
 • run Question3.py
 
+Here uploaded is Tweets.csv which is the data fetched in Running Question1.py
+thereafter output.csv is generated in step 2 in Question2.py
+File.json is what is created in Step 3 
+
