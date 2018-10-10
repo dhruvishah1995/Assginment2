@@ -1,3 +1,6 @@
+import pandas as pd
+import csv
+
 with open("negative.csv", "r") as f:
     negText = f.read()
 negWordList= negText.split("\n")
