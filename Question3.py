@@ -8,7 +8,7 @@ import csv
 csvfile = open('output.csv', 'r')
 jsonfile = open('file.json', 'w')
 
-fieldnames = ("sentiment","tweets","sentiment_score")
+fieldnames = ("Sentence","Score","sentiment")
 reader = csv.DictReader( csvfile, fieldnames)
 for row in reader:
     json.dump(row, jsonfile)
